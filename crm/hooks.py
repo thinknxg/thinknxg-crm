@@ -1,10 +1,10 @@
 app_name = "crm"
-app_title = "Frappe CRM"
-app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = "Kick-ass Open Source CRM"
-app_email = "shariq@frappe.io"
+app_title = "thinknxg CRM"
+app_publisher = "thinknxg Technologies Pvt. Ltd."
+app_description = "thinknxg  CRM"
+app_email = "sales@kreatao.com"
 app_license = "AGPLv3"
-app_icon_url = "/assets/crm/images/logo.svg"
+app_icon_url = "/assets/crm/images/thinknxg-logo.svg"
 app_icon_title = "CRM"
 app_icon_route = "/crm"
 
@@ -14,9 +14,9 @@ app_icon_route = "/crm"
 # required_apps = []
 add_to_apps_screen = [
 	{
-		"name": "crm",
-		"logo": "/assets/crm/images/logo.svg",
-		"title": "CRM",
+		"name": "thinknxg crm",
+		"logo": "/assets/crm/images/thinknxg-logo.svg",
+		"title": "thinknxg CRM",
 		"route": "/crm",
 		"has_permission": "crm.api.check_app_permission",
 	}
