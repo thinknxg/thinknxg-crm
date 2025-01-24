@@ -1,10 +1,10 @@
 app_name = "crm"
-app_title = "thinknxg CRM"
-app_publisher = "thinknxg Technologies Pvt. Ltd."
-app_description = "thinknxg  CRM"
+app_title = "thinkNXG CRM"
+app_publisher = "thinkNXG Technologies Pvt. Ltd."
+app_description = "thinkNXG CRM"
 app_email = "sales@kreatao.com"
 app_license = "AGPLv3"
-app_icon_url = "/assets/crm/images/thinknxg-logo.svg"
+app_icon_url = "/assets/crm/images/thinknxg-logo.png"
 app_icon_title = "CRM"
 app_icon_route = "/crm"
 
@@ -14,9 +14,9 @@ app_icon_route = "/crm"
 # required_apps = []
 add_to_apps_screen = [
 	{
-		"name": "thinknxg crm",
-		"logo": "/assets/crm/images/thinknxg-logo.svg",
-		"title": "thinknxg CRM",
+		"name": "thinkNXG CRM",
+		"logo": "/assets/crm/images/thinknxg-logo.png",
+		"title": "thinkNXG CRM",
 		"route": "/crm",
 		"has_permission": "crm.api.check_app_permission",
 	}
