@@ -58,7 +58,7 @@ let links = [
   },
   {
     label: __('Documentation'),
-    url: 'https://docs.frappe.io/crm',
+    url: 'https://docs.thinknxg/crm',
     icon: LucideBookOpen,
   },
   {
