@@ -12,15 +12,16 @@ app_icon_route = "/crm"
 # ------------------
 
 # required_apps = []
-add_to_apps_screen = [
-	{
-		"name": "thinkNXG CRM",
-		"logo": "/assets/crm/images/thinknxg-logo.png",
-		"title": "thinkNXG CRM",
-		"route": "/crm",
-		"has_permission": "crm.api.check_app_permission",
-	}
-]
+# add_to_apps_screen removed — hides the "Switch to thinkNXG CRM" link from Frappe Desk sidebar
+# add_to_apps_screen = [
+# 	{
+# 		"name": "thinkNXG CRM",
+# 		"logo": "/assets/crm/images/thinknxg-logo.png",
+# 		"title": "thinkNXG CRM",
+# 		"route": "/crm",
+# 		"has_permission": "crm.api.check_app_permission",
+# 	}
+# ]
 
 get_site_info = "crm.activation.get_site_info"
 
