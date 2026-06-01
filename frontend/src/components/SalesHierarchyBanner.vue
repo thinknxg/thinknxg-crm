@@ -17,7 +17,7 @@
       </button>
     </div>
     <div class="text-ink-gray-7 text-p-sm">
-      {{ __('We are changing how permissions work in Frappe CRM') }}
+      {{ __('We are changing how permissions work in thinkNXG CRM') }}
     </div>
     <Button :label="__('Learn more')" @click="openBlog">
       <template #suffix>
@@ -44,7 +44,7 @@ defineProps({
 })
 
 const BLOG_URL =
-  'https://frappe.io/blog/frappe-crm/understanding-permissions-in-frappe-crm'
+  'https://thinknxg.net/blog/understanding-permissions-in-thinknxg-crm'
 
 const { isManager } = usersStore()
 const dismissed = useStorage('salesHierarchyBannerDismissed', false)
