@@ -138,6 +138,7 @@
       v-if="showHelpModal"
       v-model="showHelpModal"
       v-model:articles="articles"
+      title="thinkNXG CRM"
       :logo="CRMLogo"
       :afterSkip="(step) => capture('onboarding_step_skipped_' + step)"
       :afterSkipAll="() => capture('onboarding_steps_skipped')"
